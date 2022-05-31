@@ -157,7 +157,7 @@ input[type="text"]:focus {
 
 /* Completed */
 
-#main-section-completed label {
+.section-completed__list label {
   text-decoration: line-through;
   color: #888;
 }
