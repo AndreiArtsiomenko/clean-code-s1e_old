@@ -9,16 +9,16 @@
 
 <body>
   <header class="header">
-    <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
-    <a class="header-link" 
+    <img class="header__image" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
+    <a class="header__link" 
         href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main class="main">
-    <section id="main-section-add">
-      <label class = "label label-create-task" for="create-task">Add Item</label>
-      <div class="task-row-wrapper">
-        <input id="create-task"class="task" type="text">
-        <button>Add</button>
+    <section class="main__section-add section-add">
+      <label class = "label section-add__label" for="create-task">Add Item</label>
+      <div class="section-add__row-wrapper">
+        <input id="create-task" class="task" type="text">
+        <button class="button">Add</button>
       </div>
     </section>
     <h3>Todo</h3>
@@ -27,15 +27,15 @@
         <input class = "checkbox" type="checkbox">
         <label class="label task">Pay Bills</label>
         <input type="text" class="task">
-        <button class="btn-edit">Edit</button>
-        <button class="btn-delete"><img src="./remove.svg" alt="Remove"></button>
+        <button class="button btn-edit">Edit</button>
+        <button class="button btn-delete"><img src="./remove.svg" alt="Remove"></button>
       </li>
       <li class="item edit-mode">
         <input class = "checkbox" type="checkbox">
         <label class="label task">Go Shopping</label>
         <input type="text" value="Go shopping" class="task">
-        <button class="btn-edit">Save</button>
-        <button class="btn-delete"><img src="./remove.svg" alt="Remove"></button>
+        <button class="button btn-edit">Save</button>
+        <button class="button btn-delete"><img src="./remove.svg" alt="Remove"></button>
       </li>
     </ul>
     <h3>Completed</h3>
@@ -44,8 +44,8 @@
         <input class = "checkbox" type="checkbox" checked>
         <label class="label task">See the Doctor</label>
         <input type="text" class="task">
-        <button class="btn-edit">Edit</button>
-        <button class="btn-delete"><img src="./remove.svg" alt="Remove"></button>
+        <button class="button btn-edit">Edit</button>
+        <button class="button btn-delete"><img src="./remove.svg" alt="Remove"></button>
       </li>
     </ul>
   </main>
