@@ -50,12 +50,12 @@ body {
   padding: 0px;
 }
 
-li, 
-h3 {
+.item, 
+.subtitle {
   list-style: none;
 }
 
-input,
+.input,
 .button {
   outline: none;
 }
@@ -76,7 +76,7 @@ input,
 
 /* Heading */
 
-h3,
+.subtitle,
 .section-add__label {
   color: #333;
   font-weight: 700;
@@ -117,7 +117,7 @@ input[type="text"]:focus {
 
 /* Task list */
 
-li {
+.item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -126,7 +126,7 @@ li {
   align-items: center;
 }
 
-li > * {
+.item > * {
   vertical-align: middle;
 }
 
@@ -141,7 +141,7 @@ li > * {
   width: 226px;
 }
 
-li > input[type="text"] {
+.item > input[type="text"] {
   width: 226px;
 }
 
